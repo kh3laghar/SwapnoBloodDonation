@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -7,7 +8,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="right">
+        android:layout_gravity="right"
+        tools:ignore="RtlHardcoded,UselessParent">
 
         <Spinner
             android:id="@+id/spinner_SelectBloodGroup"
@@ -41,7 +43,7 @@
             android:layout_alignTop="@+id/spinner_Select_District"
             android:layout_marginTop="63dp"
             android:background="#c1e6c2"
-            android:text="Search" />
+            android:text="@string/search" />
 
         <TextView
             android:id="@+id/textView_SearchDonor"
@@ -51,7 +53,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignRight="@+id/spinner_SelectBloodGroup"
             android:layout_marginTop="65dp"
-            android:text="Search Donor"
+            android:text="@string/search_donor"
             android:textAppearance="?android:attr/textAppearanceLarge" />
     </RelativeLayout>
 </LinearLayout>
