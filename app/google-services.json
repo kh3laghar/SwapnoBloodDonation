@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "814728832540",
+    "firebase_url": "https://swapnoblooddonationapplication.firebaseio.com",
+    "project_id": "swapnoblooddonationapplication",
+    "storage_bucket": "swapnoblooddonationapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814728832540:android:b7377f9b2d44197c",
+        "android_client_info": {
+          "package_name": "com.asm_linksys.swapnoblooddonationapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814728832540-ton4cqaa1csack4rdiickp6c8kpc0n2a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asm_linksys.swapnoblooddonationapplication",
+            "certificate_hash": "7E654944DF4F6C62AE5CE9FCA35062AE82DA42F6"
+          }
+        },
+        {
+          "client_id": "814728832540-rlpjqm5l26lsbthitbnabnp5jg1m246r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGklmZDja9t_i26WbR29AsSQ394swZ19g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814728832540-rlpjqm5l26lsbthitbnabnp5jg1m246r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
