@@ -6,8 +6,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Spinner;
 
-import com.asm_linksys.swapnoblooddonationApplication.R;
-
 
 //Implement OnItemSelectedListener So that it could Reply on Spinner Selection
 public class SearchDonor extends Activity implements AdapterView.OnItemSelectedListener {
