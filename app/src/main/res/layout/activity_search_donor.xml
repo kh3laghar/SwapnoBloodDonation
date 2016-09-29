@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right">
+
+        <Spinner
+            android:id="@+id/spinner_SelectBloodGroup"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_above="@+id/spinner_Select_District"
+            android:layout_alignLeft="@+id/spinner_Select_District"
+            android:layout_alignStart="@+id/spinner_Select_District"
+            android:layout_marginBottom="39dp"
+            android:background="#c1e6c2"
+            android:clickable="false" />
+
+        <Spinner
+            android:id="@+id/spinner_Select_District"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="197dp"
+            android:background="#c1e6c2"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/button_SearchDonor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/spinner_Select_District"
+            android:layout_alignLeft="@+id/spinner_Select_District"
+            android:layout_alignRight="@+id/spinner_Select_District"
+            android:layout_alignStart="@+id/spinner_Select_District"
+            android:layout_alignTop="@+id/spinner_Select_District"
+            android:layout_marginTop="63dp"
+            android:background="#c1e6c2"
+            android:text="Search" />
+
+        <TextView
+            android:id="@+id/textView_SearchDonor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/spinner_SelectBloodGroup"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/spinner_SelectBloodGroup"
+            android:layout_marginTop="65dp"
+            android:text="Search Donor"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+</LinearLayout>

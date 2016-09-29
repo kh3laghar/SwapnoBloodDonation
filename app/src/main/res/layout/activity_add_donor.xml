@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="364dp"
+        android:layout_height="510dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:text="Name :"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="16sp"
+            tools:ignore="RtlCompat" />
+
+        <EditText
+            android:id="@+id/editText_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView_name"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enter Person Name"
+            android:textSize="14sp"
+            tools:ignore="RelativeOverlap" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText_Name"
+            android:layout_alignRight="@+id/editText_Name"
+            android:layout_alignTop="@+id/textView_Gender"
+            android:text="Female" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/radioButton_Female"
+            android:layout_alignLeft="@+id/editText_Name"
+            android:layout_alignStart="@+id/editText_Name"
+            android:layout_alignTop="@+id/radioButton_Female"
+            android:text="Male" />
+
+        <TextView
+            android:id="@+id/textView_BloodGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView_Gender"
+            android:layout_alignStart="@+id/textView_Gender"
+            android:layout_below="@+id/radioButton_Male"
+            android:layout_marginTop="19dp"
+            android:text="Blood Group :"
+            android:textAlignment="center"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/bloodGroup_Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radioButton_Male"
+            android:layout_alignStart="@+id/radioButton_Male"
+            android:layout_alignTop="@+id/textView_BloodGroup"
+            android:layout_toEndOf="@+id/radioButton_Male"
+            tools:ignore="RtlCompat" />
+
+        <Spinner
+            android:id="@+id/Distrct_Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText_Name"
+            android:layout_alignStart="@+id/editText_Name"
+            android:layout_alignTop="@+id/District_TextView"
+            android:layout_toEndOf="@+id/radioButton_Male"
+            tools:ignore="RtlCompat" />
+
+
+        <TextView
+            android:id="@+id/textView_Gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView_name"
+            android:layout_alignStart="@+id/textView_name"
+            android:layout_below="@+id/Distrct_Spinner"
+            android:layout_marginTop="16dp"
+            android:text="Gender :"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/District_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView_Gender"
+            android:layout_alignRight="@+id/textView_Gender"
+            android:layout_below="@+id/textView_name"
+            android:layout_marginTop="16dp"
+            android:text="District :"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/phoneNo_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView_BloodGroup"
+            android:layout_alignStart="@+id/textView_BloodGroup"
+            android:layout_below="@+id/bloodGroup_Spinner"
+            android:layout_marginTop="22dp"
+            android:text="Phone No :"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/phoneNo_textView"
+            android:layout_alignLeft="@+id/bloodGroup_Spinner"
+            android:layout_alignStart="@+id/bloodGroup_Spinner"
+            android:layout_alignTop="@+id/phoneNo_textView"
+            android:ems="10"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/editText6"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_alignLeft="@+id/editText7"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/editText7"
+            android:layout_below="@+id/editText7"
+            android:layout_marginTop="46dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text="Address"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/PreviousExperience_textView"
+            android:layout_alignLeft="@+id/editText6"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/editText6"
+            tools:ignore="UnknownId" />
+
+        <TextView
+            android:id="@+id/Address_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView_Gender"
+            android:layout_alignRight="@+id/textView_Gender"
+            android:layout_alignTop="@+id/editText6"
+            android:layout_marginTop="26dp"
+            android:text="Address :"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/PreviousExperience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/phoneNo_textView"
+            android:layout_alignStart="@+id/phoneNo_textView"
+            android:layout_below="@+id/editText6"
+            android:layout_marginTop="19dp"
+            android:text="Previous Experience :"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText6"
+            android:layout_alignStart="@+id/editText6"
+            android:layout_alignTop="@+id/PreviousExperience" />
+
+        <Button
+            android:id="@+id/AddDonorButton"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="23dp"
+            android:text="Add Donor" />
+    </RelativeLayout>
+</LinearLayout>
