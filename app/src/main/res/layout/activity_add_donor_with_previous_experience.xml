@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_border">
 
     <AutoCompleteTextView
         android:id="@+id/autoCompleteTextView"
@@ -15,7 +16,7 @@
         android:textAlignment="center"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="36sp"
-        android:textStyle="normal|bold|italic"
+        android:textStyle="normal|bold"
         android:typeface="sans" />
 
     <DatePicker
@@ -28,19 +29,20 @@
 
     <Button
         android:id="@+id/PreviousDate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/datePicker"
+        android:layout_width="160dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/autoCompleteTextView"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/datePicker"
-        android:layout_marginBottom="142dp"
-        android:layout_marginLeft="109dp"
-        android:layout_marginStart="109dp"
+        android:layout_alignStart="@+id/autoCompleteTextView"
+        android:layout_marginBottom="138dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/background_oval_border"
         android:backgroundTint="?attr/actionMenuTextColor"
         android:fontFamily="sans-serif-medium"
         android:lineSpacingExtra="12sp"
         android:text="SUBMIT"
         android:textColor="@android:color/holo_green_dark"
-        android:textSize="24sp"
+        android:textSize="36sp"
         android:typeface="sans" />
 </RelativeLayout>

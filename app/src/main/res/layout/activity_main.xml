@@ -1,34 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/backgroud_border"
+    android:background="@drawable/swapno"
     tools:context="com.asm_linksys.swapnoblooddonationapplication.MainActivity">
 
     <Button
         android:id="@+id/SignInButton"
         style="@style/Theme.Design.NoActionBar"
-        android:layout_width="140dp"
+        android:layout_width="170dp"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/registerHomeButton"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="240dp"
+        android:layout_alignStart="@+id/registerHomeButton"
+        android:layout_marginTop="206dp"
+        android:backgroundTint="@android:color/holo_green_dark"
         android:text="@string/sign_in"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textStyle="normal|bold" />
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/background_dark"
+        android:textSize="32sp"
+        android:visibility="visible" />
 
     <Button
         android:id="@+id/registerHomeButton"
-        android:layout_width="140dp"
+        android:layout_width="170dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/SignInButton"
-        android:layout_alignStart="@+id/SignInButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/SignInButton"
-        android:layout_marginTop="34dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@android:color/holo_green_dark"
         android:text="@string/register_home"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textStyle="normal|bold" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/background_dark"
+        android:textSize="32sp" />
 
 </RelativeLayout>
