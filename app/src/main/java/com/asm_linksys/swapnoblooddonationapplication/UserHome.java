@@ -5,10 +5,10 @@ import android.net.Uri;
 import android.os.Bundle;
 
 /**
- * Created by Md.Asiful on 29-Sep-16.
+ * Created by Md.Asiful on 30-Sep-16.
  */
 
-public class AdminHome extends Activity {
+public class UserHome extends Activity {
     /**
      * Called when the activity is starting.  This is where most initialization
      * should go: calling {@link #setContentView(int)} to inflate the
@@ -37,6 +37,7 @@ public class AdminHome extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin_home);
+        setContentView(R.layout.activity_user_home);
+
     }
 }
