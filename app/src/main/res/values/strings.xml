@@ -22,4 +22,6 @@
     <string name="forget_password">Forget Password</string>
     <string name="login">LOGIN</string>
     <string name="register">Register</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="register_home">REGISTER</string>
 </resources>

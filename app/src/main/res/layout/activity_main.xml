@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_border"
+    tools:context="com.asm_linksys.swapnoblooddonationapplication.MainActivity">
 
     <Button
         android:id="@+id/SignInButton"
@@ -11,19 +15,20 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="183dp"
-        android:text="SIGN IN"
+        android:text="@string/sign_in"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textStyle="normal|bold" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/registerHomeButton"
         android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/SignInButton"
         android:layout_alignStart="@+id/SignInButton"
         android:layout_below="@+id/SignInButton"
         android:layout_marginTop="21dp"
-        android:text="REGISTER"
+        android:text="@string/register_home"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textStyle="normal|bold" />
+
 </RelativeLayout>

@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.net.Uri;
 import android.os.Bundle;
 
+import com.beardedhen.androidbootstrap.TypefaceProvider;
+
 /**
  * Created by Md.Asiful on 29-Sep-16.
  */
@@ -39,5 +41,6 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        TypefaceProvider.registerDefaultIconSets();
     }
 }
