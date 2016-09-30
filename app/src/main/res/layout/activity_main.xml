@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="183dp"
+        android:layout_marginTop="240dp"
         android:text="@string/sign_in"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textStyle="normal|bold" />
@@ -26,7 +26,7 @@
         android:layout_alignLeft="@+id/SignInButton"
         android:layout_alignStart="@+id/SignInButton"
         android:layout_below="@+id/SignInButton"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="34dp"
         android:text="@string/register_home"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textStyle="normal|bold" />
