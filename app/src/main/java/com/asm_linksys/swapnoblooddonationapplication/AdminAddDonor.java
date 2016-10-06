@@ -1,3 +1,9 @@
+/*
+ * Copyright (c)
+ * Md. Asiful Haque
+ * ASM-Linksys.com
+ */
+
 package com.asm_linksys.swapnoblooddonationapplication;
 
 import android.app.Activity;
