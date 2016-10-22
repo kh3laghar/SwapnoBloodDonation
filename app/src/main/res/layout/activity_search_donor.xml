@@ -14,23 +14,23 @@
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/spinner_Select_District"
-            android:layout_alignLeft="@+id/spinner_Select_District"
-            android:layout_alignRight="@+id/spinner_Select_District"
-            android:layout_alignStart="@+id/spinner_Select_District"
-            android:layout_alignTop="@+id/spinner_Select_District"
+            android:layout_alignEnd="@+id/selectBloodGroupSpinner"
+            android:layout_alignLeft="@+id/selectBloodGroupSpinner"
+            android:layout_alignRight="@+id/selectBloodGroupSpinner"
+            android:layout_alignStart="@+id/selectBloodGroupSpinner"
+            android:layout_alignTop="@+id/selectBloodGroupSpinner"
             android:layout_marginTop="63dp"
             android:background="@color/colorAccent"
             android:text="@string/search"
             android:textColor="@color/bootstrap_brand_secondary_fill" />
 
     <Spinner
-        android:id="@+id/spinner_Select_District"
+        android:id="@+id/selectBloodGroupSpinner"
         android:layout_width="150dp"
         android:layout_height="35dp"
-        android:layout_alignLeft="@+id/spinner_SelectBloodGroup"
-        android:layout_alignStart="@+id/spinner_SelectBloodGroup"
-        android:layout_below="@+id/spinner_SelectBloodGroup"
+        android:layout_alignLeft="@+id/selectDistrictSpinner"
+        android:layout_alignStart="@+id/selectDistrictSpinner"
+        android:layout_below="@+id/selectDistrictSpinner"
         android:layout_marginTop="25dp"
         android:background="@drawable/background_thin_border"
         android:spinnerMode="dropdown" />
@@ -48,7 +48,7 @@
         android:textStyle="normal|bold" />
 
     <Spinner
-        android:id="@+id/spinner_SelectBloodGroup"
+        android:id="@+id/selectDistrictSpinner"
         android:layout_width="150dp"
         android:layout_height="35dp"
         android:layout_alignEnd="@+id/textView_SearchDonor"

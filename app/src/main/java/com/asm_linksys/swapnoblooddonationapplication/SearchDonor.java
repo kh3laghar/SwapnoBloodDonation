@@ -12,7 +12,8 @@ import android.widget.Spinner;
 
 //Implement OnItemSelectedListener So that it could Reply on Spinner Selection
 public class SearchDonor extends Activity implements AdapterView.OnItemSelectedListener {
-    Spinner spinner;
+    Spinner bloodGroupSelect;
+    Spinner districtSelect;
 
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -25,6 +26,11 @@ public class SearchDonor extends Activity implements AdapterView.OnItemSelectedL
         super.onCreate(savedInstancestate);
         //Setting Content view to activity_search_donor
         setContentView(R.layout.activity_search_donor);
+
+        //Spinner Code Goes here
+        bloodGroupSelect = (Spinner) findViewById(R.id.selectDistrictSpinner);
+
+        //Action Bar Code goes here.
         ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
 
