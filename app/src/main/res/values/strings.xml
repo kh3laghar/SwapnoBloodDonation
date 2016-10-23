@@ -27,4 +27,7 @@
     <string name="add_date">ADD DATE </string>
     <string name="settings">Settings</string>
     <string name="search_menu">Search</string>
+    <string name="enter_your_password_forget">Enter Your Password :</string>
+    <string name="enter_your_user_name_forget_password">Enter your User Name :</string>
+    <string name="forget_password_header">FORGET PASSWORD</string>
 </resources>

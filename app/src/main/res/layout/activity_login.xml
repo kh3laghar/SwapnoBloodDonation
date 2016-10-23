@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#b6dcd7"
@@ -29,7 +30,7 @@
             android:layout_marginLeft="69dp"
             android:layout_marginStart="69dp"
             android:layout_marginTop="131dp"
-            android:text="Enter your User Name :" />
+            android:text="@string/enter_your_user_name_forget_password" />
 
         <EditText
             android:id="@+id/editText_username_Text"
@@ -48,7 +49,7 @@
             android:layout_alignRight="@+id/textView_username_login"
             android:layout_below="@+id/editText_username_Text"
             android:layout_marginTop="44dp"
-            android:text="Enter Your Password :" />
+            android:text="@string/enter_your_password_forget" />
 
         <EditText
             android:id="@+id/editText_password_text"
@@ -63,23 +64,23 @@
 
         <Button
             android:id="@+id/button_login"
+            app:background="@color/accent_material_light"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/editText_password_text"
             android:layout_alignStart="@+id/editText_password_text"
             android:layout_below="@+id/editText_password_text"
             android:layout_marginTop="41dp"
-            android:background="@color/accent_material_light"
             android:text="LOGIN" />
 
         <Button
             android:id="@+id/button_forget_password"
+            app:background="@color/accent_material_light"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/editText_username_Text"
             android:layout_alignRight="@+id/editText_username_Text"
             android:layout_alignTop="@+id/button_login"
-            android:background="@color/accent_material_light"
             android:text="Forget Password " />
 
         <TextView
@@ -94,6 +95,7 @@
 
         <Button
             android:id="@+id/button_register_login_window"
+            app:background="@color/accent_material_light"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/editText_password_text"
@@ -102,8 +104,8 @@
             android:layout_alignStart="@+id/button_login"
             android:layout_below="@+id/button_login"
             android:layout_marginTop="38dp"
-            android:background="@color/accent_material_light"
-            android:text="Register" />
+            android:text="Register"
+            tools:ignore="PrivateResource" />
 
     </RelativeLayout>
 
